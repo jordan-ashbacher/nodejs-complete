@@ -1,0 +1,27 @@
+{
+  "name": "nodejs-complete",
+  "version": "1.0.0",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jordan-ashbacher/nodejs-complete.git"
+  },
+  "author": "Jordan Ashbacher",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jordan-ashbacher/nodejs-complete/issues"
+  },
+  "homepage": "https://github.com/jordan-ashbacher/nodejs-complete#readme",
+  "description": "",
+  "devDependencies": {
+    "nodemon": "^3.1.9"
+  },
+  "dependencies": {
+    "body-parser": "^1.20.3",
+    "express": "^4.21.2"
+  }
+}
